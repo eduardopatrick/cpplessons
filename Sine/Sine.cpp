@@ -29,6 +29,6 @@ int main(int argc, char** argv)
 
 	double Radians = strtod(argv[1], 0);
 
-	cout << Radians << endl;
+	cout << Sine(Radians) << endl;
 	return 0;
 };
