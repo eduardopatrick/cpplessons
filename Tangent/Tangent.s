@@ -29,9 +29,9 @@ Tangent:
 		push ebp
 		mov ebp, esp
 		fld qword ptr[ebp + 8]
-		fcos
-		fld qword ptr[ebp + 8]
 		fsin
+		fld qword ptr[ebp + 8]
+		fcos
 		fdiv
 		pop ebp
 		ret
@@ -42,9 +42,9 @@ Tangent:
 		push rbp
 		mov rbp, rsp
 		fld qword ptr[rbp + 8]
-		fcos
-		fld qword ptr[rbp + 8]
 		fsin
+		fld qword ptr[rbp + 8]
+		fcos
 		fdiv
 		pop ebp
 		ret
